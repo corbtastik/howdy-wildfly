@@ -1,0 +1,8 @@
+---
+applications:
+- name: howdy-wildfly
+  memory: 1G
+  random-route: true
+  path: target/howdy-wildfly-1.0.0.SNAP.war
+  buildpack: https://github.com/corbtastik/buildpack-sack/releases/download/v1.0.0/jboss-buildpack-offline-v4.17.1.zip
+
